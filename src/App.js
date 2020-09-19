@@ -12,11 +12,6 @@ import { Cards } from './components/cards'
 function App() {
   return (
     <Grommet theme={grommet} themeMode="light" full>
-      <Box direction="row" flex overflow={{ horizontal: 'hidden'}} fill>
-        <Navbar/>
-        <Box flex align='center' justify='center'>
-          app body
-        </Box>
       <Box pad="medium" fill>
         <Tabs flex>
           <Tab title='Check-In'>
@@ -28,6 +23,11 @@ function App() {
           <Tab title='Stats'>
           </Tab>
         </Tabs>
+      </Box>
+      <Box direction="row" flex overflow={{ horizontal: 'hidden'}} fill>
+        <Box flex align='center' justify='center'>
+          app body
+        </Box>
       </Box>
     </Grommet>
   );
