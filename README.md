@@ -1,9 +1,11 @@
-### Grommet Resources
+## Grommet Resources
 https://v2.grommet.io
 
 https://storybook.grommet.io/?path=/story/
 
 https://grommet-nextjs.herokuapp.com/?theme=grommet
+
+## The Below is Auto-Generated
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
