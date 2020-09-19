@@ -3,9 +3,11 @@ import {
   Box,
   grommet,
   Grommet,
+  Tab,
+  Tabs
 } from 'grommet';
-
-import { Navbar } from './components/sidebar';
+import { CalendarWindow } from './components/calendar'
+import { Cards } from './components/cards'
 
 function App() {
   return (
@@ -15,6 +17,17 @@ function App() {
         <Box flex align='center' justify='center'>
           app body
         </Box>
+      <Box pad="medium" fill>
+        <Tabs flex>
+          <Tab title='Check-In'>
+
+          </Tab>
+          <Tab title='Overview'>
+            <CalendarWindow></CalendarWindow>
+          </Tab>
+          <Tab title='Stats'>
+          </Tab>
+        </Tabs>
       </Box>
     </Grommet>
   );
