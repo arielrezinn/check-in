@@ -1,6 +1,9 @@
 # Check-In for HackMIT 2020
 This is going to (eventually) be replaced with text abt what this is and why it was created!
 
+## Figma Link
+https://www.figma.com/file/J8fGf4TZweJL5xlWayeYJB/checkin?node-id=0%3A1
+
 ## Grommet Resources
 https://v2.grommet.io
 
