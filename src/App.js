@@ -21,7 +21,6 @@ function App() {
             <CalendarWindow></CalendarWindow>
           </Tab>
           <Tab title='Stats'>
-            <Cards></Cards>
           </Tab>
         </Tabs>
       </Box>
