@@ -8,6 +8,7 @@ import {
 } from 'grommet';
 import { CalendarWindow } from './components/calendar'
 import { Cards } from './components/cards'
+import { EmojiWindow } from './components/emojiview'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <CalendarWindow></CalendarWindow>
           </Tab>
           <Tab title='Stats'>
+            <EmojiWindow></EmojiWindow>
           </Tab>
         </Tabs>
       </Box>
