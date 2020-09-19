@@ -15,7 +15,7 @@ function App() {
         <Box flex align='center' justify='center'>
           app body
         </Box>
-    </Box>
+      </Box>
     </Grommet>
   );
 }
