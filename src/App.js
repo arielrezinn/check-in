@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Grommet, Nav } from 'grommet';
+import { Sidebar } from 'grommet-controls';
 
 const theme = {
   global: {
@@ -14,6 +15,9 @@ const theme = {
 function App() {
   return (
     <Grommet theme={theme} themeMode="dark">
+      <Sidebar title='My title'>
+
+      </Sidebar>
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
