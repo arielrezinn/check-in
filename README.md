@@ -13,14 +13,14 @@ Our web app integrates mood check ups into your daily life in order to reconnect
 
 Through Mood Map, **the user can see trends in their moods** over the course of time, helping them to connect with and understand their emotions not only by logging them, but also by **seeing data visualizations**. 
 
-## Demo
+## Demo via Gif
 
 ### Check-in process
 <p align="center"> 
 <img src="src/navigation-0.gif" alt="check-in navigation">
 </p>
 
-### Viewing aggregate results and personal history
+### Viewing ggregate results and personal history
 <p align="center"> 
 <img src="src/navigation-1.gif" alt="data visualization">
 </p>
@@ -30,12 +30,15 @@ Through Mood Map, **the user can see trends in their moods** over the course of 
 <img src="src/navigation-2.gif" alt="authentication navigation">
 </p>
 
-## Technologies used
+## Technologies Used
 
 - [Grommet](https://v2.grommet.io) (an accessibility-focused React framework)
 - [Firebase](https://firebase.google.com/) (Realtime Database and Authentication)
 - [chart.xkcd](https://github.com/timqian/chart.xkcd) (an xkcd-style chart library used for data visualization)
 - [React Calendar Heatmap](https://github.com/kevinsqi/react-calendar-heatmap) (used to display mood over the course of recent months)
+
+## Hosting Storytime
+While trying to deploy to Github pages, we discovered an unexpected error. Our app uses Google auth to manage user sign-in, which doesn't play very nicely with Github pages :( We then attempted a last-ditch effort to migrate to firebase hosting, which also did not work out. We will be running our demo locally for judging!
 
 ## Other links
 
