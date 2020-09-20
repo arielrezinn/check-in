@@ -23,9 +23,6 @@ function App() {
           <Tab title='Check-In'>
             <EmojiWindow></EmojiWindow>
           </Tab>
-          <Tab title='Overview'>
-            <CalendarWindow></CalendarWindow>
-          </Tab>
           <Tab title='Stats'>
             <Box align="center" justify="center" direction="row" pad="medium" gap="medium">
               <Box align="center" justify="center" pad="medium" width="large">
