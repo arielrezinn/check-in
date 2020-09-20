@@ -1,0 +1,50 @@
+import React from 'react'
+import { Grommet, Box, Header, Text } from 'grommet'
+
+
+
+const theme = {
+  "global": {
+    "colors": {
+      "background": {
+        "light": "#ffffff",
+        "dark": "#000000"
+      }
+    },
+    "font": {
+      "family": "-apple-system,\n         BlinkMacSystemFont, \n         \"Segoe UI\", \n         Roboto, \n         Oxygen, \n         Ubuntu, \n         Cantarell, \n         \"Fira Sans\", \n         \"Droid Sans\",  \n         \"Helvetica Neue\", \n         Arial, sans-serif,  \n         \"Apple Color Emoji\", \n         \"Segoe UI Emoji\", \n         \"Segoe UI Symbol\""
+    }
+  },
+  "button": {
+    "extend": [
+      null
+    ]
+  }
+}
+export default () => {
+    
+  return (
+    <Grommet full theme={theme}>
+      <Box fill="vertical" overflow="auto" align="center" flex="grow" pad="large">
+        <Header align="center" direction="row" flex={false} justify="between" gap="medium">
+          <Text>
+            QOTD
+
+          </Text>
+        </Header>
+        <Box align="center" justify="center" pad="medium">
+          <Text>
+            What never fails to make you happier?
+          </Text>
+        </Box>
+        <Box align="stretch" justify="center">
+          <Text textAlign="start">
+            user 
+Open ended answer: ____
+
+          </Text>
+        </Box>
+      </Box>
+    </Grommet>
+  )
+}
