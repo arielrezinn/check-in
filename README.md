@@ -1,12 +1,11 @@
-# Check-In, A Chrome Extension for COVID
-The Chrome Extension for Mental Health in the Age of COVID-19
+# Mood Map, A Chrome Extension for COVID
+The Chrome Extension for Mental Health in the Age of COVID-19.
 
 # Problem
-As college students, we noticed that quarantine has blocked off most people's main outlet for emotional guidance: friends. There's a need for being in touch with your emotions now more than ever.
+As college students, we noticed that quarantine has blocked off people's main outlet for emotional guidance: friends. There's a need for being in touch with your emotions now more than ever, and people are forced to look in themselves for emotional guidance and clarity. 
  
 # Why Mood Map?
-That's where Check-In comes to help. Our Chrome Browser extension integrates mood check ups to your daily life.Through Mood Map, people can see trends within their moods and stay on top of their emotions.
- 
+Our Chrome Browser extension integrates mood check ups to your daily life to reconnect you with your inner emotions. Through Mood Map, the user can see trends in their moods over the course of time, helping them to connect with and understand their emotions not only through logging them, but also through data visualization. 
  
  
 # Technology Used
