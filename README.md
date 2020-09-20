@@ -1,4 +1,4 @@
-# Check-In
+# Check-In, A Chrome Extension for COVID
 The Chrome Extension for Mental Health in the Age of COVID-19
 
 # Problem
