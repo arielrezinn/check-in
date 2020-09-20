@@ -1,18 +1,23 @@
 # Mood Map 
 Keep tabs on your Mental Health.
 
-# Problem
-As college students, we noticed that quarantine has blocked off people's main outlet for emotional guidance: friends. There's a need for being in touch with your emotions now more than ever, and people are forced to look in themselves for emotional guidance and clarity. 
- 
-# Why Mood Map?
-Our web-app integrates mood check ups into your daily life, encouraging self-reflection. Through Mood Map, the user can see trends in their moods over the course of time, helping them to connect with and understand their emotions not only through logging them, but also through data visualization. 
- 
- 
-# Technology Used
-We used Grommet, a React based framework, Firebase for our backend user authentication portal, etc. 
-https://www.figma.com/file/J8fGf4TZweJL5xlWayeYJB/checkin?node-id=0%3A1
-https://v2.grommet.io
-https://storybook.grommet.io/?path=/story/
-https://grommet-nextjs.herokuapp.com/?theme=grommet
+![banner](src/moodmap-banner.png)
 
+## Problem
+As college students, we've noticed that quarantine has significantly changed our lives. **Our screen time is now higher than ever** as we rely on the Internet for everything from classes to communicating with friends. This means that **it can be hard to find a quick moment** for introspection and self-reflection.
+ 
+## Why Mood Map?
+Our web app integrates mood check ups into your daily life in order to reconnect you with your inner emotions. Every time you open up a new tab, Mood Map gives you a moment to reflect on how you, the person sitting in front of the computer, are doing. This gives you a brief respite from the ongoing hustle of Zoom meetings and coursework and everything else you might have going on.
 
+Through Mood Map, **the user can see trends in their moods** over the course of time, helping them to connect with and understand their emotions not only by logging them, but also by **seeing data visualizations**. 
+ 
+## Technologies used
+
+- [Grommet](https://v2.grommet.io) (an accessibility-focused React framework)
+- [Firebase](https://firebase.google.com/) (Realtime Database and Authentication)
+- [chart.xkcd](https://github.com/timqian/chart.xkcd) (an xkcd-style chart library used for data visualization)
+- [React Calendar Heatmap](https://github.com/kevinsqi/react-calendar-heatmap) (used to display mood over the course of recent months)
+
+## Other links
+
+- Feel free to take a look at the [Figma board](https://www.figma.com/file/J8fGf4TZweJL5xlWayeYJB/checkin?node-id=0%3A1) we used to mock everything up!
