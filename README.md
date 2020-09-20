@@ -10,7 +10,24 @@ As college students, we've noticed that quarantine has significantly changed our
 Our web app integrates mood check ups into your daily life in order to reconnect you with your inner emotions. Every time you open up a new tab, Mood Map gives you a moment to reflect on how you, the person sitting in front of the computer, are doing. This gives you a brief respite from the ongoing hustle of Zoom meetings and coursework and everything else you might have going on.
 
 Through Mood Map, **the user can see trends in their moods** over the course of time, helping them to connect with and understand their emotions not only by logging them, but also by **seeing data visualizations**. 
- 
+
+## Demo
+
+### Check-in process
+<p align="center"> 
+<img src="src/navigation-0.gif" alt="check-in navigation">
+</p>
+
+### Viewing aggregate results and personal history
+<p align="center"> 
+<img src="src/navigation-1.gif" alt="data visualization">
+</p>
+
+### Authentication
+<p align="center"> 
+<img src="src/navigation-2.gif" alt="authentication navigation">
+</p>
+
 ## Technologies used
 
 - [Grommet](https://v2.grommet.io) (an accessibility-focused React framework)
