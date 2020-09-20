@@ -27,22 +27,24 @@ function App() {
             <CalendarWindow></CalendarWindow>
           </Tab>
           <Tab title='Stats'>
-            <Box align="center" justify="center" pad="medium" width="large">
-              <Pie
-                config={{
-                  title: 'What Tim made of', // optional
-                  data: {
-                    labels: ['a', 'b', 'e', 'f', 'g'],
-                    datasets: [{
-                      data: [500, 200, 80, 90, 100],
-                    }],
-                  },
-                  options: { // optional
-                    innerRadius: 0.5,
-                    legendPosition: chartXkcd.config.positionType.upRight,
-                  },
-                }}
-              />
+            <Box align="center" justify="center" direction="row" pad="medium" gap="medium">
+              <Box align="center" justify="center" pad="medium" width="large">
+                <Pie
+                  config={{
+                    title: 'How are people doing today?', // optional
+                    data: {
+                      labels: ['well', 'okay', 'not well'],
+                      datasets: [{
+                        data: [31,47,22],
+                      }],
+                    },
+                    options: { // optional
+                      innerRadius: 0.5,
+                      legendPosition: chartXkcd.config.positionType.upRight,
+                    },
+                  }}
+                />
+              </Box>
             </Box>
           </Tab>
           <Tab title='Profile'>
