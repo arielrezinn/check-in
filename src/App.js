@@ -8,7 +8,6 @@ import {
   Tabs,
   Button
 } from 'grommet';
-import { CalendarWindow } from './components/calendar';
 import { EmojiWindow } from './components/emojiview';
 import firebase from "firebase/app";
 import Profile from './components/profile';
