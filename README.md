@@ -1,10 +1,10 @@
-## Check-In
+# Check-In
 The Chrome Extension for Mental Health in the Age of COVID-19
 
-## Problem
+# Problem
 As college students, we noticed that. There's a need for
  
-## Why Check-In?
+# Why Check-In?
 That's where Check-In comes to help. Our Chrome Browser extension integrates mood check ups to your daily life. 
  
  
