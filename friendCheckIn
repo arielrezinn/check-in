@@ -1,0 +1,85 @@
+import React from 'react'
+import { Grommet, Box, Header, Text } from 'grommet'
+
+
+
+const theme = {
+  "global": {
+    "colors": {
+      "background": {
+        "light": "#ffffff",
+        "dark": "#000000"
+      }
+    },
+    "font": {
+      "family": "-apple-system,\n         BlinkMacSystemFont, \n         \"Segoe UI\", \n         Roboto, \n         Oxygen, \n         Ubuntu, \n         Cantarell, \n         \"Fira Sans\", \n         \"Droid Sans\",  \n         \"Helvetica Neue\", \n         Arial, sans-serif,  \n         \"Apple Color Emoji\", \n         \"Segoe UI Emoji\", \n         \"Segoe UI Symbol\""
+    }
+  },
+  "button": {
+    "extend": [
+      null
+    ]
+  }
+}
+export default () => {
+    
+  return (
+    <Grommet full theme={theme}>
+      <Box fill="vertical" overflow="auto" align="center" flex="grow">
+        <Header align="center" direction="row" flex={false} justify="between" gap="medium">
+          <Box align="center" justify="center" direction="column" pad="large">
+            <Text>
+              Check-in with your friends...
+            </Text>
+          </Box>
+        </Header>
+        <Box align="center" justify="center" pad="xlarge">
+          <Text>
+            QOTD Responses
+
+          </Text>
+          <Box align="center" justify="end" pad="small" />
+          <Text>
+            Friend 1's QOTD response
+          </Text>
+          <Box align="center" justify="center">
+            <Text>
+              Friend 2 's QOTD Response
+
+            </Text>
+            <Box align="center" justify="center">
+              <Text>
+                Friend 3's QOTD response
+
+              </Text>
+              <Box align="center" justify="center">
+                <Box align="center" justify="center">
+                  <Box align="center" justify="center" pad="xlarge">
+                    <Box align="center" justify="center">
+                      <Text>
+                        Emoji Check-ins
+
+                      </Text>
+                      <Box align="center" justify="center" gap="xsmall" pad="medium" />
+                    </Box>
+                    <Text>
+                      Friend1: emoji
+                    </Text>
+                    <Text>
+                      Friend2: emoji
+
+                    </Text>
+                    <Text>
+                      Friend3: emoji
+
+                    </Text>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+    </Grommet>
+  )
+}
