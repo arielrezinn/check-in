@@ -1,17 +1,14 @@
 import React from 'react'
-import { Box, Card, Header, Heading, Text } from 'grommet'
+import { Card, CardBody, CardHeader, CardFooter, Text } from 'grommet'
 const emoji = require("emoji-dictionary");
 
-export class EmojiWindow extends React.Component {
+export class CheckInCard extends React.Component {
     constructor() {
         super();
         // todo
     }
 
-    handleCardClick() {
-      alert("Card clicked!")
-    }
-
+    function 
     render() {
         return (
           <Box fill="vertical" overflow="auto" align="center" flex="grow" direction="column">
@@ -21,23 +18,22 @@ export class EmojiWindow extends React.Component {
                 </Heading>
             </Header>
             <Box align="center" justify="center" direction="row" gap='large'>
-                <Card
+                <Card 
                   pad='large'
-                  onClick={() => this.handleCardClick()}>
+                  onClick={() => {
+              
+                    alert('Card was Clicked!');
+                  }}>
                   <Text size="xxlarge">
                       {emoji.getUnicode('blush')}
                   </Text>
                 </Card>
-                <Card 
-                  pad='large'
-                  onClick={() => this.handleCardClick()}>
+                <Card pad='large'>
                   <Text size="xxlarge">
                     {emoji.getUnicode('expressionless')}
                   </Text>
                 </Card>
-                <Card 
-                  pad='large'
-                    onClick={() => this.handleCardClick()}>
+                <Card pad='large'>
                   <Text size="xxlarge">
                     {emoji.getUnicode('cry')}
                   </Text>
