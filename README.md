@@ -1,7 +1,7 @@
 # Mood Map 
 Keep tabs on your Mental Health.
-https://checkin-57d38.web.app
-https://arielrezinn.github.io/check-in/
+- https://checkin-57d38.web.app
+- https://arielrezinn.github.io/check-in/
 
 ![banner](src/moodmap-banner.png)
 
@@ -20,7 +20,7 @@ Through Mood Map, **the user can see trends in their moods** over the course of 
 <img src="src/navigation-0.gif" alt="check-in navigation">
 </p>
 
-### Viewing ggregate results and personal history
+### Viewing aggregate results and personal history
 <p align="center"> 
 <img src="src/navigation-1.gif" alt="data visualization">
 </p>
