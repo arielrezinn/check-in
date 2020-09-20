@@ -1,0 +1,40 @@
+import React from 'react'
+import { Grommet, Box, Header, Text, RadioButtonGroup } from 'grommet'
+
+
+
+const theme = {
+  "global": {
+    "colors": {
+      "background": {
+        "light": "#ffffff",
+        "dark": "#000000"
+      }
+    },
+    "font": {
+      "family": "-apple-system,\n         BlinkMacSystemFont, \n         \"Segoe UI\", \n         Roboto, \n         Oxygen, \n         Ubuntu, \n         Cantarell, \n         \"Fira Sans\", \n         \"Droid Sans\",  \n         \"Helvetica Neue\", \n         Arial, sans-serif,  \n         \"Apple Color Emoji\", \n         \"Segoe UI Emoji\", \n         \"Segoe UI Symbol\""
+    }
+  },
+  "button": {
+    "extend": [
+      null
+    ]
+  }
+}
+export default () => {
+    
+  return (
+    <Grommet full theme={theme}>
+      <Box fill="vertical" overflow="auto" align="center" flex="grow">
+        <Header align="center" direction="row" flex={false} justify="between" gap="medium" pad="xlarge">
+          <Text size="xxlarge">
+            Question
+
+          </Text>
+        </Header>
+        <Box align="center" justify="center" background={{"color":"accent-2"}} />
+        <RadioButtonGroup options={["option 1","option 2"]} direction="column" disabled={false} gap="medium" />
+      </Box>
+    </Grommet>
+  )
+}
