@@ -45,7 +45,7 @@ function Login() {
         <Header align="center" direction="row" flex={false} justify="between" gap="medium">
           <Box align="center" justify="center">
             <Heading level="2">
-              sign in to check-in
+              sign in to mood map
             </Heading>
           </Box>
         </Header>
