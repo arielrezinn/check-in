@@ -34,12 +34,17 @@ export class Stats extends React.Component {
                 </Box>
                 <Box align='center' width='large' margin={{"left":"large"}}>
                     <CalendarHeatmap
-                        startDate={new Date('2016-01-01')}
-                        endDate={new Date('2016-04-01')}
+                        startDate={new Date('2020-01-01')}
+                        endDate={new Date('2020-04-01')}
                         values={[
-                            { date: '2016-01-01', count: 12 },
-                            { date: '2016-01-22', count: 122 },
-                            { date: '2016-01-30', count: 38 },
+                            { date: '2020-01-01', count: 53 },
+                            { date: '2020-01-22', count: 122 },
+                            { date: '2020-02-13', count: 38 },
+                            { date: '2020-02-19', count: 38 },
+                            { date: '2020-03-07', count: 69 },
+                            { date: '2020-03-20', count: 122 },
+                            { date: '2020-04-29', count: 49 },
+                            { date: '2020-04-16', count: 98 },
                             // ...and so on
                         ]}
                     />
