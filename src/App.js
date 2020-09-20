@@ -11,6 +11,7 @@ import {
 import { CalendarWindow } from './components/calendar';
 import { EmojiWindow } from './components/emojiview';
 import firebase from "firebase/app";
+import Profile from './components/profile';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Tab>
           <Tab title='Stats'>
             
+          </Tab>
+          <Tab title='Profile'>
+            <Profile />
           </Tab>
           <Button label="sign out" primary 
             onClick={() => {
