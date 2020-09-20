@@ -6,7 +6,8 @@ import {
   Grommet,
   Tab,
   Tabs,
-  Button
+  Button,
+  Image
 } from 'grommet';
 import { EmojiWindow } from './components/emojiview';
 import { Stats } from './components/stats';
@@ -18,6 +19,7 @@ function App() {
     <Grommet theme={grommet} themeMode="light" full>
       <Box direction="row" flex overflow={{ horizontal: 'hidden'}} pad="medium" fill>
         <Tabs flex>
+          <Image src='/src/moodmap-logo.png' />
           <Tab title='Check-In'>
             <EmojiWindow></EmojiWindow>
           </Tab>

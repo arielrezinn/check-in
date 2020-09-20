@@ -14,7 +14,7 @@ export class Stats extends React.Component {
     render() {
         return (
             <Box align="center" justify="center" direction='row-responsive' gap="medium" fill>
-                <Box align='center' width='medium'>
+                <Box align='center' width='large' margin={{"right":"large"}}>
                     <Pie
                         config={{
                             title: 'How are people doing today?', // optional
@@ -32,7 +32,7 @@ export class Stats extends React.Component {
                         }}
                     />
                 </Box>
-                <Box align='center' width='medium'>
+                <Box align='center' width='large' margin={{"left":"large"}}>
                     <CalendarHeatmap
                         startDate={new Date('2016-01-01')}
                         endDate={new Date('2016-04-01')}
