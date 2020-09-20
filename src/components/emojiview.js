@@ -2,10 +2,16 @@ import React from 'react'
 import { Box, Card, Header, Heading, Text } from 'grommet'
 import firebase from "firebase/app";
 import "firebase/auth";
+import "firebase/database";
 
 const emoji = require("emoji-dictionary");
 
 var alreadyClicked = false;
+
+function getDayString() {
+  var now = new Date();
+  return now.getUTCFullYear() + '/' + now.getUTCMonth() + '/' + now.getUTCDay();
+}
 
 class PosButton extends React.Component {
   constructor(props) {
@@ -23,6 +29,13 @@ class PosButton extends React.Component {
       });
       console.log('toggled state!');
       alreadyClicked = true;
+
+      var user = firebase.auth().currentUser;
+      var db = firebase.database().ref(user.uid);
+      db.child('moods').push({
+        mood: 'positive',
+        date: getDayString()
+      });
     }
   }
   render() {
@@ -62,6 +75,13 @@ class NeuButton extends React.Component {
       });
       console.log('toggled state!');
       alreadyClicked = true;
+
+      var user = firebase.auth().currentUser;
+      var db = firebase.database().ref(user.uid);
+      db.child('moods').push({
+        mood: 'neutral',
+        date: getDayString()
+      });
     }
   }
   render() {
@@ -101,6 +121,13 @@ class NegButton extends React.Component {
       });
       console.log('toggled state!');
       alreadyClicked = true;
+
+      var user = firebase.auth().currentUser;
+      var db = firebase.database().ref(user.uid);
+      db.child('moods').push({
+        mood: 'negative',
+        date: getDayString()
+      });
     }
   }
   render() {
