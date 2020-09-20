@@ -1,13 +1,16 @@
+
 import React, { useState } from 'react';
 import {
   Box,
   grommet,
   Grommet,
   Tab,
-  Tabs
+  Tabs,
+  Button
 } from 'grommet';
-import { CalendarWindow } from './components/calendar'
-import { EmojiWindow } from './components/emojiview'
+import { CalendarWindow } from './components/calendar';
+import { EmojiWindow } from './components/emojiview';
+import firebase from "firebase/app";
 
 function App() {
   return (
@@ -23,7 +26,18 @@ function App() {
           <Tab title='Stats'>
             
           </Tab>
+          <Button label="sign out" primary 
+            onClick={() => {
+              firebase.auth().signOut()
+              .catch(error => {
+                  console.log(error.code);
+                  console.log(error.message);
+              });
+            }}
+            margin={{"left":"large"}}
+          />
         </Tabs>
+        
       </Box>
     </Grommet>
   );
