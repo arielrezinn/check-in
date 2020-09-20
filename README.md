@@ -1,5 +1,7 @@
 # Mood Map 
 Keep tabs on your Mental Health.
+https://checkin-57d38.web.app
+https://arielrezinn.github.io/check-in/
 
 ![banner](src/moodmap-banner.png)
 
