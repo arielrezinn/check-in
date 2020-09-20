@@ -134,7 +134,7 @@ export class EmojiWindow extends React.Component {
 
     render() {
         return (
-          <Box fill="vertical" overflow="auto" align="center" flex="grow" direction="column">
+          <Box fill="vertical" overflow="auto" align="center" justify='center' flex="grow" direction="column">
             <Header align="center" direction="row" flex={false} justify="between" gap="medium">
                 <Heading level="2">
                 How are you doing today?

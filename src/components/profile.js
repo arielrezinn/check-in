@@ -27,8 +27,7 @@ function Profile() {
   var user = auth.currentUser;
   var photoURL = user.providerData[0].photoURL;
   return (
-    <Grommet full theme={theme}>
-      <Box align="center" justify="center" direction="row" pad="medium" gap="large">
+      <Box align="center" justify="center" direction="row" pad="medium" gap="large" fill>
         <Box align="center" justify="center">
           <div
             style={{
@@ -48,7 +47,6 @@ function Profile() {
           </Text>
         </Box>
       </Box>
-    </Grommet>
   )
 }
 
