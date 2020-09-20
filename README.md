@@ -1,5 +1,5 @@
-# Mood Map, A Chrome Extension for COVID
-The Chrome Extension for Mental Health in the Age of COVID-19.
+# Mood Map 
+Keep tabs on your Mental Health.
 
 ![banner](src/moodmap-banner.png)
 

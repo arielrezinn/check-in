@@ -19,13 +19,13 @@ function App() {
     <Grommet theme={grommet} themeMode="light" full>
       <Box direction="row" flex overflow={{ horizontal: 'hidden'}} pad="medium" fill>
         <Tabs flex>
-          <Tab title='Check-In'>
+          <Tab title='check-in'>
             <EmojiWindow></EmojiWindow>
           </Tab>
-          <Tab title='Stats'>
+          <Tab title='stats'>
             <Stats></Stats>
           </Tab>
-          <Tab title='Profile'>
+          <Tab title='profile'>
             <Profile />
           </Tab>
           <Button label="sign out" primary 
