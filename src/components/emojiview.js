@@ -31,6 +31,7 @@ class PosButton extends React.Component {
         align="center"
         justify="center"
         gap="xsmall"
+        elevation='medium'
       >
         <Text size="xxlarge">
             {emoji.getUnicode(this.state.emote)}
@@ -69,6 +70,7 @@ class NeuButton extends React.Component {
         align="center"
         justify="center"
         gap="xsmall"
+        elevation='medium'
       >
         <Text size="xxlarge">
             {emoji.getUnicode(this.state.emote)}
@@ -107,6 +109,7 @@ class NegButton extends React.Component {
         align="center"
         justify="center"
         gap="xsmall"
+        elevation='medium'
       >
         <Text size="xxlarge">
             {emoji.getUnicode(this.state.emote)}
@@ -137,7 +140,7 @@ export class EmojiWindow extends React.Component {
                 How are you doing today?
                 </Heading>
             </Header>
-            <Box align="center" justify="center" direction="row" gap='large'>
+            <Box align="center" justify="center" direction="row-responsive" gap='large'>
                 <PosButton />
                 <NeuButton />
                 <NegButton />
