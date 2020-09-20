@@ -12,10 +12,10 @@ function Profile() {
         <Avatar src={photoURL} size='196px'/>
         <Box align="left" justify="center">
           <Text>
-            <b>Name:</b> {user.providerData[0].displayName}
+            <b>name:</b> {user.providerData[0].displayName}
           </Text>
           <Text>
-            <b>Email:</b> {user.providerData[0].email}
+            <b>email:</b> {user.providerData[0].email}
           </Text>
         </Box>
       </Box>
