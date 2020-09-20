@@ -37,6 +37,7 @@ function App() {
                     options: { // optional
                       innerRadius: 0.5,
                       legendPosition: chartXkcd.config.positionType.upRight,
+                      dataColors: ['#00C781','#FFAA15','#FF4040']
                     },
                   }}
                 />
